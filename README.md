@@ -35,7 +35,7 @@ Below are all the methods we used for this research. We will also assign everyth
 
 ### Answers
 
-1. What is 0Auth
+1. What is Auth0
 
 2. What is 0AUth2
 
