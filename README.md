@@ -14,11 +14,14 @@ Before the question can be answered properly we need to do some research about 0
    - Where is authorization used for?
    - Where is 0Auth used alot?
    - What is the flow of 0Auth?
-   - Conslusion
+   - Conclusion
 
 2. What is 0auth2?
 
-3. What is a spring webservice?
+3. What is a spring webservice?  
+   - What is spring?
+   - What is a webservice?
+   - How to setup a spring webservice
 
 
 ### Method
@@ -28,5 +31,7 @@ Below are all the methods we used for this research. We will also assign everyth
 - Literature study
 
 ### Answers
+
+### Conclusion
 
 ### Sources
