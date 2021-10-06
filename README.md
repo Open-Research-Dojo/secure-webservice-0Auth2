@@ -9,11 +9,11 @@ Before the question can be answered properly we need to do some research about 0
 
 ### Research questions
 
-1. What is 0Auth?
+1. What is Auth0?
    - What is authorization in general?
    - Where is authorization used for?
-   - Where is 0Auth used alot?
-   - What is the flow of 0Auth?
+   - Where is Auth0 used alot?
+   - What is the flow of Auth0?
    - Conclusion
 
 2. What is 0Auth2?
