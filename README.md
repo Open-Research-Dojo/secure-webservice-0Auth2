@@ -1,3 +1,5 @@
+<img src="https://resources.yubico.com/53ZDUYE6/as/ft842hgc6brp7x4m4fk9s63/Auth0.gif" width="100%" height="400px"/>
+
 # secure-spring-webservice-0Auth2
 
 ## About
