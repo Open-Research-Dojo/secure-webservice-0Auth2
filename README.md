@@ -17,9 +17,12 @@ Before the question can be answered properly we need to do some research about 0
    - Conclusion
 
 2. What is 0Auth2?
-   - How to setup 0Auth2?
+   - Authentication or authorization?
+   - What is the flow of 0Auth2?
    - When should 0Auth2 be used?
    - Is 0Auth2 safe?
+   - How to setup 0Auth2?
+
 
 3. What is a spring webservice?  
    - What is spring?
