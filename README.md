@@ -9,25 +9,26 @@ Before the question can be answered properly we need to do some research about 0
 
 ### Research questions
 
-1. What is Auth0?
+
+1. What is a spring webservice?  
+   - What is spring?
+   - What is a webservice?
+   - How to setup a spring webservice
+
+2. What is Auth0?
    - What is authorization in general?
    - Where is authorization used for?
    - Where is Auth0 used alot?
    - What is the flow of Auth0?
    - Conclusion
 
-2. What is 0Auth2?
+3. What is 0Auth2?
    - Authentication or authorization?
    - What is the flow of 0Auth2?
    - When should 0Auth2 be used?
    - Is 0Auth2 safe?
    - How to setup 0Auth2?
 
-
-3. What is a spring webservice?  
-   - What is spring?
-   - What is a webservice?
-   - How to setup a spring webservice
 
 
 ### Method
