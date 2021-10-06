@@ -29,12 +29,20 @@ Before the question can be answered properly we need to do some research about 0
 
 ### Method
 
-Below are all the methods we used for this research. We will also assign everything to the questions.
+Below are all the methods we used for this research. We will also assign everything to the questions. We will be using the <a href="https://ictresearchmethods.nl/Methods">DOT</a> framework as mentioned above.
 
 - Literature study
 
 ### Answers
 
+1. What is 0Auth
+
+2. What is 0AUth2
+
+3. What is a spring webservice
+
 ### Conclusion
 
 ### Sources
+
+1. 
