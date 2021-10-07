@@ -5,6 +5,7 @@
 ## About
 This research is about making a secure spring webservice with 0Auth2. 
 
+## Issue
 
 ## Research
 Before the question can be answered properly we need to do some research about 0Auth2 and spring webservices. Also we will make some subquestions related to the main question. These questions will help us find a good conclusion. For this research we will be using the DOT framework.
