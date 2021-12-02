@@ -49,7 +49,6 @@ Before the question can be answered properly we need to do some research about 0
 4. What are JWT tokens?
    - When should you use JWT tokens?
    - How do JWT tokens work?
-   - Are JWT tokens secure?
    - Why use JWT tokens?
    
 
@@ -67,7 +66,7 @@ Below are all the methods we used for this research. We will also assign everyth
 
 3. 0AUth2
 
-4. JWT Tokens
+#### 4. JWT Tokens
 
 JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. (auth0.com, 2021)
 JWT tokens are most commonly used for authorization purposes. This allows the user to access routes & services with permission with that token. Because a JWT token is compact it is a good choice to be passed in HTTP environments. 
