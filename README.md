@@ -46,6 +46,11 @@ Before the question can be answered properly we need to do some research about 0
    - Is 0Auth2 safe?
    - How to setup 0Auth2?
    
+4. What are JWT tokens?
+   - When should you use JWT tokens?
+   - How do JWT tokens work?
+   - Why use JWT tokens?
+   
 
 ### 6. Method
 
