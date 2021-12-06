@@ -66,9 +66,30 @@ Below are all the methods we used for this research. We will also assign everyth
 
 3. 0AUth2
 
+#### 4. JWT Tokens
+
+JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. (auth0.com, 2021)
+JWT tokens are most commonly used for authorization purposes. This allows the user to access routes & services with permission with that token. Because a JWT token is compact it is a good choice to be passed in HTTP environments. 
+
+When the user is authenticated a JSON Web Token will be created. When the user wants to access a protected route or service the user agent should send the token in the request. Tokens are send in the Authorization header using the Bearer schema. Protected routes or services will verify if the token is valid, if the token is verified the user is allowed to access those protected routes or services. 
+
+JWT Flow
+1. User signs in using a username and password.
+2. Server verifies the credentials.
+3. If user is authorized the server sends a token.
+4. Browser receives the token and saves it in the cookies.
+5. When the user requests a protected endpoint the JWT is passed in the HTTP authorization header.
+6. The server verifies the JWT token.
+7. The server permits the request.
+
+These are some benefits of JWT tokens according to (auth0.com, 2021)
+- JWT tokens are compact
+- JSON parsers are common in most programming languages
+- Ease of processing JWT tokens
 
 ### 8. Conclusion
 
 ### 9. Sources
 
-1. 
+1. https://jwt.io/introduction
+2. https://www.telerik.com/blogs/introduction-json-web-tokens-jwt
