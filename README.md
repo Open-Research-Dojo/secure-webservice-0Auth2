@@ -39,12 +39,10 @@ Before the question can be answered properly we need to do some research about 0
    - What is the flow of Auth0?
    - Conclusion
 
-3. What is 0Auth2?
-   - Authentication or authorization?
-   - What is the flow of 0Auth2?
-   - When should 0Auth2 be used?
-   - Is 0Auth2 safe?
-   - How to setup 0Auth2?
+3. What is OAuth 2?
+   - What is OAuth 2?
+   - How does OAuth 2 work?
+   - What are the pros and cons of OAuth 2?
    
 4. What are JWT tokens?
    - When should you use JWT tokens?
