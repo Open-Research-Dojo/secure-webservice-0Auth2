@@ -39,12 +39,10 @@ Before the question can be answered properly we need to do some research about 0
    - What is the flow of Auth0?
    - Conclusion
 
-3. What is 0Auth2?
-   - Authentication or authorization?
-   - What is the flow of 0Auth2?
-   - When should 0Auth2 be used?
-   - Is 0Auth2 safe?
-   - How to setup 0Auth2?
+3. What is OAuth 2?
+   - What is OAuth 2?
+   - How does OAuth 2 work?
+   - What are the pros and cons of OAuth 2?
    
 4. What are JWT tokens?
    - When should you use JWT tokens?
@@ -95,7 +93,56 @@ This is how it works according to Auth0 (2021):
 9. Your application can use the Access Token to call an API to access information about the user.
 10. The API responds with requested data.
 
-#### 3. 0AUth2
+## 3. OAuth 2.0
+
+### 3.1 What is OAuth 2
+
+OAuth2, which stands for “Open Authorization”, is a standard designed to allow a website or application to access resources hosted by other web apps on behalf of a user. OAuth 2.0 provides consented access and restricts actions of what the client app can perform on resources on behalf of the user, without ever sharing the user's credentials. (What Is OAuth 2.0 and What Does It Do for You? - Auth0, z.d.)
+
+So OAuth 2 doesn’t share password data but instead uses authorization tokens to prove an identity between consumers and service providers. For example, consumer being TikTok and service provider being Facebook, you can give TikTok permission to post a video from TikTok to Facebook without exchanging any credentials, you tell Facebook that it’s okay to give certain permissions to TikTok. OAuth 2 makes it possible to make one application run with another in a safe way.
+
+### 3.2 How does OAuth 2 work?
+
+#### Roles
+
+An OAuth 2.0 flow has the following roles according to Auth0:
+
+- <strong>Remember Resource Owner</strong>: Entity that can grant access to a protected resource. Typically, this is the end-user.
+- <strong>Resource Server</strong>: Server hosting the protected resources. This is the API you want to access.
+- <strong>Client</strong>: Application requesting access to a protected resource on behalf of the Resource Owner.
+- <strong>Authorization Server</strong>: Server that authenticates the Resource Owner and issues access tokens after getting proper authorization.
+
+#### Flow
+
+Before OAuth 2 can be used, the Client must acquire its own credentials, a client id and client secret, from the Authorization Server in order to identify and authenticate itself when requesting an Access Token. 
+
+Using OAuth 2, access requests are initiated by the Client, e.g., a mobile app, website, smart TV app, desktop application, etc. 
+
+The token request, exchange, and response flow according to digital ocean:
+
+1. The application requests authorization to access service resources from the user
+2. If the user authorized the request, the application receives an authorization grant
+3. The application requests an access token from the authorization server (API) by presenting authentication of its own identity, and the authorization grant
+4. If the application identity is authenticated and the authorization grant is valid, the authorization server (API) issues an access token to the application. Authorization is complete.
+5. The application requests the resource from the resource server (API) and presents the access token for authentication
+6. If the access token is valid, the resource server (API) serves the resource to the application
+
+![image](https://user-images.githubusercontent.com/33750291/150149276-7e609ebd-0eb5-4445-b955-2645af0e6381.png)
+                                 Picture from Digital Ocean
+
+### What are the pros and cons of OAuth 2?
+
+#### Pros
+
+<strong>Security</strong> - You can allow services such as Facebook to authorize companies such as ESPN.com to access the user profile without the need to share data subject’s access credentials as mentioned earlier. If a third-party site (in this example ESPN) gets a data leak, the Facebook user’s password remains secure.
+
+<strong>Control</strong> - Not only does OAuth 2 give users the power to allow sites limited access to their data, but it even allows users to control when that timeframe window is up. It’s comforting that users can choose when authorization tokens expire.
+
+#### Cons
+
+Other then bad OAuth 2 implementations there are no cons for OAuth 2 except for the following:
+
+<strong>Phishing</strong> - When performed correctly, OAuth 2 should be safe, but the fact that you can give permissions to others website so quickly can turn into a bad habit. Hackers/phishers can abuse the less educated net users into thinking they are logging in, but hackers/phishers are actually pishing your data.
 
 #### 4. JWT Tokens
 
@@ -127,3 +174,7 @@ These are some benefits of JWT tokens according to (auth0.com, 2021)
 3. https://auth0.com/docs/authorization/flows/authorization-code-flow
 4. https://jwt.io/introduction
 5. https://www.telerik.com/blogs/introduction-json-web-tokens-jwt
+6. https://auth0.com/intro-to-iam/what-is-oauth-2/
+7. https://www.varonis.com/blog/what-is-oauth
+8. https://auth0.com/docs/authenticate/protocols/oauth
+9. https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
